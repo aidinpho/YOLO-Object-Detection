@@ -12,6 +12,22 @@ A Python-based object detection project using **YOLO11** and **OpenCV**. The pro
 - Select input images and videos using a file dialog.
 - Use a simple command-line menu to choose the detection mode.
 
+## Supported Object Classes
+
+This project uses the pretrained YOLO11n model, which supports 80 object classes from the COCO dataset.
+
+Examples of detectable objects include:
+
+- **People:** person
+- **Vehicles:** car, motorcycle, bus, truck, bicycle, train, airplane, and boat
+- **Animals:** dog, cat, bird, horse, sheep, cow, elephant, bear, zebra, and giraffe
+- **Everyday objects:** cell phone, laptop, keyboard, mouse, remote, book, clock, and scissors
+- **Kitchen and dining:** bottle, cup, fork, knife, spoon, bowl, banana, apple, orange, sandwich, pizza, and cake
+- **Sports equipment:** sports ball, tennis racket, skateboard, surfboard, and skis
+- **Furniture:** chair, couch, bed, dining table, toilet, and potted plant
+
+**Note:** These are examples, not the complete list. Detection performance depends on image quality, lighting, object size, and other conditions. Objects outside the model's supported classes may be missed or incorrectly classified.
+
 ## Technologies
 
 - Python
