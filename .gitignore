@@ -1,0 +1,19 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# YOLO model weights
+yolo11n.pt
+
+# Input videos and images
+videos/input/*
+images/input/*
+
+# Generated outputs
+outputs/images/*
+outputs/videos/*
