@@ -12,6 +12,12 @@ A Python-based object detection project using **YOLO11** and **OpenCV**. The pro
 - Select input images and videos using a file dialog.
 - Use a simple command-line menu to choose the detection mode.
 
+## Example Output
+
+The following image shows an example of object detection using the pretrained YOLO11n model.
+
+![YOLO object detection example](result.jpg)
+
 ## Supported Object Classes
 
 This project uses the pretrained YOLO11n model, which supports 80 object classes from the COCO dataset.
